@@ -9,7 +9,7 @@
 */
 double monteCarloPi(int n, int seed);
 
-int main (int argc, char* argv){
+int main (int argc, char* argv[]){
 		printf("Método de Monte Carlo para calculo de pi \n");
 
 		int n = 1000000000;
