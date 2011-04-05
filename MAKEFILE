@@ -1,5 +1,4 @@
-all: pi
-pi: pi_proc.c
-	gcc pi_proc.c -o pi -std=c99 -Wall
+all: pi pi_proc.c
+	gcc -std=c99 pi_proc.c -o pi_proc
 clean:
 	rm pi
